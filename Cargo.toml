@@ -6,6 +6,10 @@ edition = "2024"
 license = "Apache-2.0"
 repository = "https://github.com/gleem-gg/lune-protocol"
 readme = "README.md"
+homepage = "https://lune.gleem.gg"
+keywords = ["srt", "bonding", "streaming", "udp", "protocol"]
+categories = ["network-programming", "multimedia::video"]
+rust-version = "1.85"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
