@@ -16,9 +16,8 @@ The specification's test vectors are this crate's unit tests:
 cargo test
 ```
 
-[`lune-server`](https://github.com/gleem-gg/lune) is a second, independent
-implementation of the same specification: a minimal ingest that does not use
-this crate.
+[`lune-server`](https://github.com/gleem-gg/lune) is a minimal ingest for the
+same specification.
 
 A few items go beyond the specification because Gleem's ingest uses them
 (`play` tickets, `Forward::Turn`, `srt_passphrase`); their documentation says
