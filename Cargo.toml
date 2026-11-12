@@ -1,0 +1,18 @@
+[package]
+name = "lune-protocol"
+description = "The Lune bonding protocol: packet codec, registration cookie, ticket verification, limits and timers"
+version = "0.4.0"
+edition = "2024"
+license = "Apache-2.0"
+repository = "https://github.com/gleem-gg/lune-protocol"
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = "1"
+thiserror = "2"
+base64 = "0.22"
+hmac = "0.12"
+sha2 = "0.10"
+subtle = "2.6"
